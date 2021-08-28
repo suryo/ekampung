@@ -28,51 +28,29 @@ tr:nth-child(even) {
 <h1>Ekampung</h1>
 <p>Selamat Datang di Ekampung</p>
 
-<a href="/usahateman-php/">Home</a>
-<a href="/usahateman-php/kategori.php">Kategori</a>
-<a href="/usahateman-php/tentang.php">Tentang EKampung</a>
-<a href="/usahateman-php/mitra.php">Mitra</a>
-<a href="/usahateman-php/pusatedukasi.php">Pusat Edukasi Ekampung</a>
-<a href="/usahateman-php/care.php">Ekampung Care</a>
+<?php
+include 'header.php';
+?>
 
-<table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-</table>
+<h3>
+  <font color = darkgrey>
+KAMPUNG berdasarkan KBBI merupakan kelompok rumah yang merupakan bagian kota ; bisa disebut juga desa atau dusun; kesatuan administrasi terkecil yang menempati wilayah tertentu, terletak di bawah kecamatan; 
+biasanya terkebelakang (belum modern); berkaitan dengan kebiasaan di kampung; kolot;
+-- halaman daerah atau desa tempat kelahiran
+</font>
+</h3>
+<h2>
+  <font color = rainbow>
+Ekampung merupakan media berbasis digital untuk mewujudkan SDGs desa.
+Sustainable Development Goals (SDGs) merupakan suatu rencana aksi global yang disepakati oleh para pemimpin dunia, 
+termasuk Indonesia, guna mengakhiri kemiskinan, mengurangi kesenjangan dan melindungi lingkungan. 
+SDGs berisi 17 Tujuan dan 169 Target yang diharapkan dapat dicapai pada tahun 2030
+</font>
+</h2>
 
+<h1>
+ekampung memiliki misi : mewujudkan percepatan pencapaian tujuan pembangunana nasional berkelanjutan berbasis platform digital
+</h1>
  <footer>
   <p>Author: SuryoAtmojo</p>
   <p><a href="mailto:suryoatm@gmail.com">ekampung.id</a></p>

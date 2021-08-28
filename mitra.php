@@ -35,7 +35,7 @@ include 'header.php';
 
 <br>
 <br>
-<a href="/mitra/tambahview.php">Tambah</a>
+<a href="/ekampung/mitra/tambahview.php">Tambah</a>
 <table>
 
 <tr>

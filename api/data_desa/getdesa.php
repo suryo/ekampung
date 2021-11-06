@@ -9,7 +9,7 @@ if (function_exists($_GET['function'])) {
 function get_desa()
 {
    global $koneksi;
-   $query = $koneksi->query("SELECT * FROM desa");
+   $query = $koneksi->query("SELECT * FROM data_desa");
    while ($row = mysqli_fetch_object($query)) {
       $data[] = $row;
    }

@@ -22,7 +22,7 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 </style>
-<title>UsahaTeman</title>
+<title>Ekampung Gaes</title>
 </head>
 <body>
 
@@ -36,8 +36,8 @@ include 'header.php';
 <br>
 <br>
 <a href="/ekampung/mitra/tambahview.php">Tambah</a>
+<!-- ini saya buat tabel untuk memunculkan data mitra -->
 <table>
-
 <tr>
     <th>ID</th>
     <th>Mitra</th>
@@ -51,7 +51,7 @@ while($row = mysqli_fetch_array($mitra)) : ?>
             <?= $row['id']?>
         </td>
         <td> <?= $row['mitra']?> </td>
-        <td> <a href="/ekampung/">edit</a> <a href="/ekampung/">delete</a></td>
+        <td> <a href="/ekampung/mitra/editview.php?id=<?= $row['id']?>">edit</a> <a href="/ekampung/mitra/deleteaction.php?id=<?= $row['id']?>">delete</a></td>
     </tr>
     <?php endwhile; ?>
 </table>

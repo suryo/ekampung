@@ -1,15 +1,18 @@
+<?php
+echo ("ekampung.id");
+?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ekampung</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>EKampung</title>
 </head>
 <body>
-	<br/>
-	<br/>
-	<center><h2>www.ekampung.id</h2></center>	
-	<br/>
-    <?php
+
+<h1>Tentang Ekampung</h1>
+<p>Selamat Datang di Ekampung</p>
+  
+<?php
 include '../header.php';
 ?>
 	<div class="login">
@@ -21,7 +24,7 @@ include '../header.php';
 			</div>
 						
 			<div>
-				<input type="submit" value="Login" class="tombol">
+				<input type="submit" value="Simpan" class="tombol">
 			</div>
 		</form>
 	</div>
